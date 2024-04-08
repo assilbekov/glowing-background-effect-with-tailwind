@@ -4,8 +4,8 @@ export default function App() {
       <div>
         <h3>Growing and animated background effect</h3>
         <div className="flex justify-center items-center p-10">
-          <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-purple-500 opacity-75 blur-md" />
+          <div className="relative group">
+            <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-purple-500 opacity-75 blur-md group-hover:blur-xl transition duration-1000" />
             <button className="flex items-center gap-4 bg-zinc-900 px-7 py-4 rounded-md relative">
               <span className="flex items-center gap-8 text-slate-50">
                 <svg
@@ -25,7 +25,7 @@ export default function App() {
                 Tailwind example
               </span>
               <span className="h-5 w-[1px] bg-slate-500" />
-              <span className="text-indigo-300">
+              <span className="text-indigo-300 group-hover:text-slate-50 transition duration-1000">
                 Glowind and animated &rarr;
               </span>
             </button>
