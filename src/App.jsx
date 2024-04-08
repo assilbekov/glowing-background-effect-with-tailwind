@@ -4,8 +4,9 @@ export default function App() {
       <div>
         <h3>Growing and animated background effect</h3>
         <div className="flex justify-center items-center p-10">
-          <div>
-            <button className="flex items-center gap-4 bg-zinc-900 px-7 py-4 rounded-md">
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-purple-500 opacity-75 blur-md" />
+            <button className="flex items-center gap-4 bg-zinc-900 px-7 py-4 rounded-md relative">
               <span className="flex items-center gap-8 text-slate-50">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
