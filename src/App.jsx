@@ -5,7 +5,7 @@ export default function App() {
         <h3>Growing and animated background effect</h3>
         <div className="flex justify-center items-center p-10">
           <div className="relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-purple-500 opacity-75 blur-md group-hover:blur-xl transition duration-1000" />
+            <div className="absolute inset-0 bg-gradient-to-r from-pink-700 to-purple-700 opacity-75 blur-md group-hover:blur-xl transition duration-1000 animate-tilt" />
             <button className="flex items-center gap-4 bg-zinc-900 px-7 py-4 rounded-md relative">
               <span className="flex items-center gap-8 text-slate-50">
                 <svg
